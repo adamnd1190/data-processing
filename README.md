@@ -26,7 +26,7 @@ The data processing and analysis workflow is structured as a pipeline with the f
         create_graph(x, y, avg_prices): Generates and displays a combination plot (stack plot, bar graph, line graph) for average prices based on the number of bedrooms.
 
 # Example Output
-The script will print the processed data tuples and display a combination plot showing the average price for each number of bedrooms.
+The script will print the processed data tuples and display a simple combination plot showing the average price for each number of bedrooms.
 
         Loading Data:   0%|                                                        | 0/3585 [00:00<?, ?it/s]
         (0, '0', '1', 1, 1, 1, 1, '0', 34, 9, 40, 3.689)
@@ -52,4 +52,7 @@ The script will print the processed data tuples and display a combination plot s
         4    411.100000
         5    487.583333
         Name: price, dtype: float64
+
+
+![myplot](https://github.com/adamnd1190/data-processing/assets/95566165/5ff1b283-3b0c-4cc1-a666-ec4da020f41c)
 
